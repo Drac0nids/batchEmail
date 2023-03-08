@@ -9,7 +9,7 @@ const htmlContent = fs.readFileSync('email.html').toString();
 
 // Email sender configuration
 const transporter = nodemailer.createTransport({
-    host: 'smtp.hashkeypro.site',
+    host: 'smtp.163.com',
     port: 25,
     secureConnection: false,
     auth: {
